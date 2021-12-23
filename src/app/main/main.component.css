@@ -1,0 +1,89 @@
+.slides{
+    width: 80%;
+    margin-left: 10%;
+}
+.carousel:hover {
+  box-shadow: 5px 5px 2px gray;
+}
+    
+.carousel {
+    margin-bottom: 4rem;
+    
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+ 
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .first{
+    padding: 25px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 45px;
+    margin-top: 30px;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 2px gray;
+   border: solid 1px black;
+   border: 1px black;
+  
+}
+a:hover{
+  box-shadow: 5px 5px 2px gray;
+}
+
+.container h1:hover{
+  width: fit-content;
+  text-shadow: 3px 3px 1px rgb(83, 83, 83);
+  font-size: 42px;
+}
+.card{
+  margin-top: 20px;
+}
+
+.card img{
+  width: 26rem;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+.card img:hover{
+  width: 27rem;
+  margin-left: 10px;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

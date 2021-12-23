@@ -1,0 +1,112 @@
+.BGfeed{
+    width: 100vmax;
+}
+   .boxx input[type ="submit"]{
+        width: 100px;
+        background: #00bcd4;
+        color: black;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+    }
+    .boxx input[type ="submit"]:hover{
+      background: #00adc4;
+      box-shadow: 5px 5px 2px grey;
+    }
+    .rectangle{
+        background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 16px;
+        color: black;
+        flex-direction: column;
+        font-weight: 300;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        resize: none;
+        box-shadow: 5px 5px 3px grey;
+    }
+
+.contactForm:hover{
+   background: rgba(233, 231, 231, 0.322);
+}
+.contactForm{
+   width: 50%;
+   padding: 60px;
+   background: rgba(233, 231, 231, 0.151);
+}
+.contactForm h2:hover{
+   font-size: 32px;
+}
+.contactForm h2{
+   font-size: 30px;
+   color: black;
+   font-weight: 500;
+}
+.contactForm h4:hover{
+   color: rgb(34, 33, 33);
+}
+.contactForm h4{
+   font-size: 18px;
+   color: gray;
+   font-weight: 500;
+}
+.contactForm .inputbox{
+   position: relative;
+   width: 100%;
+   margin-top: 20px;
+}
+.contactForm .inputbox input ,textarea{
+   width: 100%;
+   padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid #333;
+   outline: none;
+   resize: none;
+}
+.contactForm .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+   font-size: 16px;
+   margin: 10px 0;
+   pointer-events: none;
+   transition: 00.5s;
+   color: rgb(102, 102, 102);
+}
+/* .contactForm .inputbox input:focus ~ span,.contactForm .inputbox input:valid ~ span,
+.contactForm .inputbox textarea:focus ~ span,.contactForm .inputbox textarea:valid ~ span{
+    color: red;
+    font-size: 15px;
+    transform: translateY(-22px);
+} */
+.contactForm  button{
+    width: 150px;
+    background: #a4e1eb;
+    color: rgb(31, 30, 30);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+input.ng-invalid{
+   border-left: 5px solid red;
+ }
+ input.ng-valid{
+   border-left: 5px solid #4BB543;
+ }
+@media(max-width: 991px){
+   
+}

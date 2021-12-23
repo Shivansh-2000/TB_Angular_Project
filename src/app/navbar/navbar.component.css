@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: lightgrey;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.logo{
+  width: 40%;
+  line-height: 80px;
+  text-align: center;
+}
+.logo h1{
+  margin-top: 12px;
+  font-size: 48px;
+  font-weight: 600;
+}
+.menu{
+  /* margin-top: 15px; */
+  float: right;
+  margin-right: 10%;
+}
+.menu ul{
+  display: flex;
+  /* margin: 5px 5px;
+  padding: 5px 5px; */
+  list-style: none;
+  position: relative;
+}
+.menu ul li{
+  /* margin-top: 1px; */
+  margin: 20px 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px;
+}
+.menu ul li a:hover{
+  color: rgb(233, 22, 22);
+  background-color: #ccc6c6;
+}
+
+/* dropmenu */
+
+.menu-drop{
+  margin-top: 20px;
+}
+.menu-drop ul{
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 10;
+}
+ul li:hover ul {
+  display: block;
+}
+.menu-drop ul li {
+  text-align: center;
+  width: 150px;
+  padding: 10px 5px;
+}
+
+.menu-drop ul li:hover{
+  background-color: #ccc6c6;
+  box-shadow: rgb(173, 34, 34) 3px 3px 3px ;
+}
+.menu ul li i{
+  font-size: 18px;
+}
+
+/* bar/toggle */
+/* #check{
+  display: none;
+} */
+/* .toggle i{
+  font-size:24px;
+  display: none;
+  margin: 23px 40px;
+  cursor: pointer;
+} */
+

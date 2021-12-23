@@ -1,0 +1,29 @@
+div{
+    background-color: lightgrey;
+    width: 100%;
+    height: 90px;
+}
+h4{
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fa{
+    /* color: red; */
+    /* color: linear-gradient(to bottom left, #33ccff 10%, #ff99cc 80%); */
+    	font-size: 35px;      
+        background: -webkit-linear-gradient(#9c47fc, #356ad2);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+i:hover{
+    font-size: 38px;
+}
+.social .handles{
+    /* font-size: 30px; */
+    text-align: center;
+    letter-spacing: 15px;
+}

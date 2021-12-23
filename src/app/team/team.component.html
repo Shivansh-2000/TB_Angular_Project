@@ -1,0 +1,105 @@
+<!-- <p>team works!</p> -->
+<div class="team-section">
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <h1>Our Team </h1>
+            </div>
+        </div>
+        <div class="team-card">
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://static.independent.co.uk/2020/10/30/08/newFile-2.jpg?width=640&auto=webp&quality=75"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Shivansh Sharma</h3>
+                    <h4>CEO</h4>
+                    <p>Do big things in small ways.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://media.npr.org/assets/img/2021/04/22/brittany-cheng-headshot_wide-33a2fb402e7cbc19fbeae56d0a42218fc0834791-s400-c85.jpg"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Gurleen</h3>
+                    <h4>CTO</h4>
+                    <p>There is always light. If only we're brave enough to see it. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1500&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F11%2F17%2Fmichael-b-jordan-horizontal.jpg"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Michael</h3>
+                    <h4>Director</h4>
+                    <p>Don't save your best for when you think the material calls for it. Always bring your full potential to every take, and be on top of your job, or they will replace you.</p>
+                </div>
+            </div>
+        </div>
+        <div class="team-card">
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRna0Yn_AMMEcnVGFuHNG0-UENJAFjsGKO8RQ&usqp=CAU"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Sukhvir</h3>
+                    <h4>Web Developer</h4>
+                    <p>You can't rely on how you look to sustain you, what sustains us, what is fundamentally beautiful is compassion; for yourself and your those around you.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6OLClPYsNx24GfZfvDksY-JgVjv_1mu5hsw&usqp=CAU"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Ankita</h3>
+                    <h4>Content head</h4>
+                    <p>Don't sit down and wait for the opportunities to come. Get up and make them.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVRgEbUUPxuyxnFw1ZPt9_LVc0LYE8uFNhA&usqp=CAU"
+                        alt="" width="200px">
+                </div>
+                <div class="content">
+                    <h3>Michael</h3>
+                    <h4>Marketing Head</h4>
+                    <p>One of the lessons that I grew up with was to always stay true to yourself and never let what somebody else says distract you from your goals.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <!-- data using HTTP services -->
+        <!-- <h2>Some other important worker:-</h2>   -->
+
+        <h2 class="text-center">{{pagetitle}}</h2>
+        <br>
+
+        <table class="table table-bordered">
+            <tr class="bg-primary">
+                <th>ID</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Email</th>
+            </tr>
+        
+            <tr *ngFor="let user of users">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.email}}</td>
+            </tr>
+        </table>
+
+    </div>
+</div>

@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.tittle h1{
+    margin-top: 40px;
+}
+.tittle h1:hover{
+    font-size: 42px;
+}
+.about{
+    background: url(https://cdn.wallpapersafari.com/49/28/PlbUCQ.jpg);
+    background-size: cover;
+}
+.about h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.first{
+    margin-bottom: 100px;
+}
+.third{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-left{
+    /* margin-top: 20px; */
+    float:left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img-left:hover{
+  box-shadow: 4px 4px 2px gray;
+}
+.img-right:hover{
+  box-shadow: 4px 4px 2px gray;
+}
+.img-right{
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+h2{
+    margin:10px;
+    padding: 10px;
+}
+.first .c-right p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.second{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.second .c-left p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.adminHandle{
+    text-align: center;
+}
+.adminHandle a{
+    font-size: 50px;
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  /* ...and then apply it: */
+  img {
+    animation: slide-in 1000ms;
+  }
